@@ -12,6 +12,7 @@ hop_length = (20 * 1e-3)
 
 
 def pyaudioanalysis_features(file):
+    # short term audio features (e.g. mfccs) using pyAudioAnalysis
     fs, x = aIO.read_audio_file(file)
     fv, f_names = sF.feature_extraction(x, fs, window_length * fs,
                                         hop_length * fs)
@@ -19,6 +20,7 @@ def pyaudioanalysis_features(file):
 
 
 def melgram_features(file):
+    # melgram features using librosa:
     x, fs = librosa.load(file, sr=None)
 
     # compute mel spectrogram:
@@ -28,9 +30,11 @@ def melgram_features(file):
     spectrogram_dB = librosa.power_to_db(spectrogram, ref=np.max)
     return spectrogram_dB
 
-def feature_extraction_folder(folder_path):
+
+# TODO: add wav2vec2 embeddings here
+
+def feature_extraction_folder(folder_path, out_dir):
     files = glob.glob(os.path.join(folder_path, '*.wav'))
-    print(files)
     for f in files:
         fv, f_n = pyaudioanalysis_features(f)
         mel = melgram_features(f)
@@ -38,22 +42,27 @@ def feature_extraction_folder(folder_path):
         print(fv.shape)
         print(mel.shape)
 
+        file_prefix = os.path.join(out_dir, 
+                                   os.path.basename(f).replace(".wav", ""))
+        print("saving " + file_prefix)
+        np.save(file_prefix + "_pyaudioanalysis.npy", fv)
+        np.save(file_prefix + "_melgram.npy", mel)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "-i", "--input", type=str, nargs="?", required=True, 
-        help="Input folder"
-    )
+        help="Input folder")
 
     parser.add_argument(
         "-o", "--output", type=str, nargs="?", required=True, 
-        help="Output folder where features are stored"
-    )
+        help="Output folder where features are stored")
 
     flags = parser.parse_args()
-    csv_in = flags.input
+    in_dir = flags.input
     out_dir = flags.output
 
     if not os.path.exists(out_dir):     
         os.makedirs(out_dir)
-    feature_extraction_folder(csv_in)
+    feature_extraction_folder(in_dir, out_dir)
