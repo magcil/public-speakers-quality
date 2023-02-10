@@ -22,4 +22,5 @@ if __name__ == "__main__":
     with open(gt_file) as fp:
         ground_truth = json.load(fp)
 
-    print(ground_truth[0])
+    for ig, g in ground_truth:
+        print(ground_truth[ig])
