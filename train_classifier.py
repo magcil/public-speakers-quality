@@ -208,7 +208,7 @@ if __name__ == "__main__":
         help="Task to be solved")
     parser.add_argument("-s", "--segment_level",  action='store_true', required=False,
         help="whether to use mid-term segments as separate instances")
-    parser.add_argument("-m", "--model_name", action='store_true', required=False,
+    parser.add_argument("-m", "--model_name", required=False,
                         help="the name of the algorithm/model to be trained")
     flags = parser.parse_args()
     gt_file = flags.ground_truth
