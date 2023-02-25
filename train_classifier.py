@@ -122,8 +122,8 @@ def train_pyaudio_seg(gt_file, f_dir, model_name, task):
         ground_truth = json.load(fp)
 
 
-    mid_window = 1.0
-    step = 0.5
+    mid_window = PARAMS['mid_window']
+    step = PARAMS['mid_step']
     X, y, grps = [], [], []
     counter = 0
     for ig, g in enumerate(ground_truth):
