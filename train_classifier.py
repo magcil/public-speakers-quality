@@ -192,7 +192,7 @@ def train_pyaudio_seg(gt_file, f_dir, model_name, task):
     print("The mean cross validated error on aggregated segments is: ", mean_error)
 
 
-train_pyaudio_seg("annotations_metadata.json", "features/", "svr", 'confidence')
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
