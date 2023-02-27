@@ -13,7 +13,7 @@ def train_and_validate(model,
                        epochs,
                        validation_epochs=5,
                        early_stopping=False,
-                       patience=10):
+                       patience=20):
     """
     Trains the given <model>.
     Then validates every <validation_epochs>.
