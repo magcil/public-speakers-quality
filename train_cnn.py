@@ -38,7 +38,7 @@ def aggregated_valid_seg(x_test, y_test, groups_test, best_model):
     error = mean_absolute_error(averaged_gr_truths, averaged_preds)
     return error
 
-def train(X, y, grps, ofile=None):
+def train(X, y, grps, ofile=None, random_state=42):
 
     """Train a given model on a given dataset"""
     # Check that folders exist
@@ -47,7 +47,7 @@ def train(X, y, grps, ofile=None):
     torch.backends.cudnn.deterministic = True
 
 
-    splitter = GroupShuffleSplit(test_size=.20, n_splits=2)
+    splitter = GroupShuffleSplit(test_size=.20, n_splits=2, random_state=random_state)
     split = splitter.split(X, groups=grps)
     train_inds, test_inds = next(split)
     x_train = X[train_inds, :, :]
@@ -158,7 +158,7 @@ def train(X, y, grps, ofile=None):
     return error
 
 def train_cross_validation(gt_file, f_dir, task, ofile):
-    K=10
+    K=20
 
     with open(gt_file) as fp:
         ground_truth = json.load(fp)
@@ -180,7 +180,7 @@ def train_cross_validation(gt_file, f_dir, task, ofile):
     y = np.array(y)
     errors = []
     for i in range(K):
-        errors.append(train(X, y, grps, ofile))
+        errors.append(train(X, y, grps, ofile, i))
     print('****************************************')
     mean_error = round(numpy.average(errors), 2)
     print("The mean cross validated error on aggregated segments is: ", mean_error)
