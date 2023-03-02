@@ -100,7 +100,7 @@ def train(X, y, grps, ofile=None, random_state=42):
                                   weight_decay=.02)
 
 
-    loss_function = torch.nn.L1Loss()
+    loss_function = torch.nn.MSELoss()
 
     best_model, train_losses, valid_losses, \
     train_metric, val_metric, \
