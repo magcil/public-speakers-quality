@@ -16,6 +16,7 @@ import pandas as pd
 from config import PARAMS
 from sklearn.model_selection import GroupKFold
 from sklearn.preprocessing import StandardScaler
+from utils import save_model
 
 mid_term_window = [1, 2, 3, 4, 5, 6, 7]
 mid_term_step = [0.5, 1, 1.5, 2, 2.5, 3, 3.5]
@@ -55,7 +56,7 @@ def mid_feature_extraction(short_features, mid_window, mid_step,
 
 
 
-def main(gt_file, f_dir, task):
+def train_pyaudio(gt_file, f_dir, task):
     with open(gt_file) as fp:
         ground_truth = json.load(fp)
 
@@ -117,7 +118,9 @@ def main(gt_file, f_dir, task):
     #plt.plot(test_preds, y_test, '*')
     #plt.show()
 
-def train_pyaudio_seg(gt_file, f_dir, model_name, task):
+
+
+def train_pyaudio_seg(gt_file, f_dir, model_name, task, cross_val=False, out_model=None):
     with open(gt_file) as fp:
         ground_truth = json.load(fp)
 
@@ -156,40 +159,54 @@ def train_pyaudio_seg(gt_file, f_dir, model_name, task):
     elif model_name == 'linearreg':
         model = LinearRegression()
 
-    #scorer = make_scorer(mean_absolute_error, greater_is_better=False)
-    #rs = ShuffleSplit(n_splits=10, random_state=0)
-    cv = GroupKFold(n_splits=10)
     print(X.shape)
     scaler = StandardScaler()
-    errors = []
-    for i, (train_index, test_index) in enumerate(cv.split(X, groups=grps)):
-        print(f"Fold {i}:")
-        print(f"  Train: index={train_index}")
-        x_train = X[train_index, :]
-        x_train = scaler.fit_transform(x_train)
-        y_train = y[train_index]
-        x_test = X[test_index, :]
-        x_test = scaler.transform(x_test)
-        y_test = y[test_index]
-        groups_test = [grps[index] for index in test_index]
-        model.fit(x_train, y_train)
-        preds = model.predict(x_test)
-        averaged_preds = []
-        averaged_gr_truths = []
-        print(y_test)
-        for group_id in set(groups_test):
-            print(group_id)
-            ground_truths_of_group = [i for j, i in enumerate(y_test) if groups_test[j] == group_id]
-            print(ground_truths_of_group)
-            preds_of_group = [i for j, i in enumerate(preds) if groups_test[j] == group_id]
-            print(preds_of_group)
-            averaged_preds.append(round(numpy.average(preds_of_group), 2))
-            averaged_gr_truths.append(ground_truths_of_group[0])
-        error = mean_absolute_error(averaged_gr_truths, averaged_preds)
-        print(error)
-        errors.append(error)
-    mean_error = round(numpy.average(errors), 2)
-    print("The mean cross validated error on aggregated segments is: ", mean_error)
+    if cross_val:
+        #scorer = make_scorer(mean_absolute_error, greater_is_better=False)
+        #rs = ShuffleSplit(n_splits=10, random_state=0)
+        cv = GroupKFold(n_splits=10)
+        errors = []
+        for i, (train_index, test_index) in enumerate(cv.split(X, groups=grps)):
+            print(f"Fold {i}:")
+            print(f"  Train: index={train_index}")
+            x_train = X[train_index, :]
+            x_train = scaler.fit_transform(x_train)
+            y_train = y[train_index]
+            x_test = X[test_index, :]
+            x_test = scaler.transform(x_test)
+            y_test = y[test_index]
+            groups_test = [grps[index] for index in test_index]
+            model.fit(x_train, y_train)
+            preds = model.predict(x_test)
+            averaged_preds = []
+            averaged_gr_truths = []
+            print(y_test)
+            for group_id in set(groups_test):
+                print(group_id)
+                ground_truths_of_group = [i for j, i in enumerate(y_test) if groups_test[j] == group_id]
+                print(ground_truths_of_group)
+                preds_of_group = [i for j, i in enumerate(preds) if groups_test[j] == group_id]
+                print(preds_of_group)
+                averaged_preds.append(round(numpy.average(preds_of_group), 2))
+                averaged_gr_truths.append(ground_truths_of_group[0])
+            error = mean_absolute_error(averaged_gr_truths, averaged_preds)
+            print(error)
+            errors.append(error)
+        mean_error = round(numpy.average(errors), 2)
+        print("The mean cross validated error on aggregated segments is: ", mean_error)
+    else:
+        model_dict = {}
+        model.fit(X, y)
+        model_dict['model'] = model
+        model_dict['mid_window'] = mid_window
+        model_dict['mid_step'] = step
+
+        out_folder = PARAMS['output_path']
+
+        if out_model is None:
+            save_model(model_dict, out_folder, name="basic_regressor")
+        else:
+            save_model(model_dict, out_folder, out_model=out_model)
 
 
 
@@ -210,14 +227,21 @@ if __name__ == "__main__":
         help="whether to use mid-term segments as separate instances")
     parser.add_argument("-m", "--model_name", required=False,
                         help="the name of the algorithm/model to be trained")
+    parser.add_argument("-val", "--cross_val", required=False, action='store_true',
+                        help="if cross validated is needed to split the data")
+    parser.add_argument("-o", "--outputmodelname", required=False,
+                        help="name to the final model to be saved")
+    
     flags = parser.parse_args()
     gt_file = flags.ground_truth
     f_dir = flags.features_folder
     task = flags.task_name
     segment_level = flags.segment_level
     model_name = flags.model_name
+    cross_val = flags.cross_val
+    output_name = flags.outputmodelname
 
     if segment_level:
-        train_pyaudio_seg(gt_file, f_dir, model_name, task)
+        train_pyaudio_seg(gt_file, f_dir, model_name, task, cross_val, output_name)
     else:
-        main(gt_file, f_dir, task)
+        train_pyaudio(gt_file, f_dir, task)
