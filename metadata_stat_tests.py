@@ -26,5 +26,14 @@ if __name__ == "__main__":
     flow_female = [i for i in flow_female if i is not None]
     flow_male = [i for i in flow_male if i is not None]
     print(flow_male)
-    print(np.mean(flow_female))
-    print(np.mean(flow_male))
+    print(f'female flow average: {np.mean(flow_female)}')
+    print(f'male flow average: {np.mean(flow_male)}')
+
+    from scipy.stats import ttest_ind
+
+    t_statistic, p_value = ttest_ind(flow_female, flow_male)
+    print(t_statistic, p_value)
+    if p_value < 0.05 and t_statistic > 0:
+        print("flow_female is significantly larger than flow_male")
+    else:
+        print("flow_female is not significantly larger than flow_male")
