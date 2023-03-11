@@ -196,10 +196,12 @@ def train_pyaudio_seg(gt_file, f_dir, model_name, task, cross_val=False, out_mod
         print("The mean cross validated error on aggregated segments is: ", mean_error)
     else:
         model_dict = {}
+        X = scaler.fit_transform(X)
         model.fit(X, y)
         model_dict['model'] = model
         model_dict['mid_window'] = mid_window
         model_dict['mid_step'] = step
+        model_dict['scaler'] = scaler
 
         out_folder = PARAMS['output_path']
 
