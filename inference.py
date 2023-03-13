@@ -3,6 +3,7 @@ from feature_extraction import pyaudioanalysis_features,mid_feature_extraction
 import pickle5 as pickle
 import numpy as np
 
+
 def inference(input, model):
     '''
     :param input: input WAV file
