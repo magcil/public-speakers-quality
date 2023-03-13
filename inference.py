@@ -23,12 +23,8 @@ def inference(input, model):
     X = scaler.transform(X)
     preds = regressor.predict(X)
     average_prediction = round(np.average(preds), 2)
-    print("Predicted value for task ", model.split("/")[-1].split('.')[0], " is: ", average_prediction)
-
-
-
-
-
+    model_name = model.split("/")[-1].split('.')[0]
+    print("Predicted value for task ", model_dict, " is: ", average_prediction)
 
 
 if __name__ == "__main__":
