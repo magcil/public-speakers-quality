@@ -18,7 +18,7 @@ def inference_dir(dir, model, ground_truth_file):
     with open(ground_truth_file) as fp:
         ground_truth = json.load(fp)
     errors = []
-    for f in files[::40]:
+    for f in files:
         f2 = os.path.basename(f)
         found = False
         for g in ground_truth:
@@ -28,10 +28,12 @@ def inference_dir(dir, model, ground_truth_file):
         if found:
             model_name = model.split("/")[-1].split('.')[0]
             real = g[model_name]['mean']
-            pred = inference.inference(f, model)
-            errors.append(np.abs(real-pred))
-            print(f"pred={pred:.2f} real={real:.2f}")
-        print(np.mean(errors))
+            if real:
+                pred = inference.inference(f, model)
+                errors.append(np.abs(real-pred))
+                print(f"pred={pred:.2f} real={real:.2f}")
+        print(f"current error: {np.mean(errors):.2f}")
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
