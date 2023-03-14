@@ -1,3 +1,7 @@
+# This file is used for end2end testing of the trained models
+# It is more of a sanity check that the trained models have 
+# fitted the trainning data, NOT a proper cross-validation pipeline
+
 import argparse
 import inference
 import glob
@@ -32,7 +36,7 @@ def inference_dir(dir, model, ground_truth_file):
                 pred = inference.inference(f, model)
                 errors.append(np.abs(real-pred))
                 print(f"pred={pred:.2f} real={real:.2f}")
-        print(f"current error: {np.mean(errors):.2f}")
+        print(f"(moving) Average error: {np.mean(errors):.2f}")
 
 
 if __name__ == "__main__":
