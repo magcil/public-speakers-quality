@@ -3,30 +3,29 @@ from feature_extraction import pyaudioanalysis_features,mid_feature_extraction
 import pickle5 as pickle
 import numpy as np
 
+
 def inference(input, model):
     '''
-
-    :param input:
-    :param model:
-    :return:
+    :param input: input WAV file
+    :param model: model path
+    :return: average prediction
     '''
     model_dict = pickle.load(open(model, 'rb'))
     regressor = model_dict['model']
     mid_window = model_dict['mid_window']
     step = model_dict['mid_step']
+    scaler = model_dict['scaler']
     fv, f_n = pyaudioanalysis_features(input)
     mtf = mid_feature_extraction(fv, mid_window, step, 0.04, 0.02)
     X = []
     for segment in mtf.T:
         X.append(np.array(segment))
+    X = scaler.transform(X)
     preds = regressor.predict(X)
     average_prediction = round(np.average(preds), 2)
-    print("Predicted value for task ", model.split("/")[-1].split('.')[0], " is: ", average_prediction)
-
-
-
-
-
+    model_name = model.split("/")[-1].split('.')[0]
+    print("Predicted value for task ", model_dict, " is: ", average_prediction)
+    return average_prediction
 
 
 if __name__ == "__main__":
