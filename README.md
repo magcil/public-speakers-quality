@@ -1,6 +1,18 @@
 # public-speakers-quality
 A Dataset for Assessing Quality of Public Speakers
 
+## About
+Automatically assessing the quality of public speakers can be used to build 
+coaching applications and training tools that focus on improving presentation
+ skills. This is a dataset of audio recordings of more than 350 conference
+  presentations, annotated with regards to the corresponding speaking quality. 
+To assess the speaking quality we focus on aspects of public speech, such as 
+confidence, intonation, flow of speech and the use of pauses and filler words. 
+This repo also demonstrates the ability of various machine learning methods to 
+automatically assess the speaking quality in conferences over the annotated 
+dataset. 
+
+
 ## Setup 
 Install the required packages
 ```
