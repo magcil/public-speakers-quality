@@ -17,23 +17,22 @@ each, created by randomly selecting 30 second segments from the start,
 middle and end of the whole video presentations, that were collected from links 
 publicly available in the conference websites and YouTube. 
 The language of all segments is English. 22.16% of the speaker are female 
-and 77.84\% are male. To capture a difference 
-in the ethnicity background, we try to identify whether a speaker is a native 
-or non-native English speaker, when listening to the audios. 38.52% of the 
-speakers are native and 233 61.48% non-native. Finally, 44.5% of the speakers 
+and 77.84\% are male. 38.52% of the 
+speakers are native and 233 61.48% non-native. 44.5% of the speakers 
 gave a talk in industry-driven conferences, thus we categorized them as 
 engineers, while the rest as academics. 
-Among the academics, we searched public information about their affiliation 
-and position and identified that 24.2% of the speakers were senior academics
+Among the academics 24.2% of the speakers were senior academics
 (faculty, research scientists), while 27.4% of the speakers were junior 
 academics (post-docs and PhD candidates). 
 
 The annotated aspects of speaking quality are: confidence, intonation, 
 flow of speech and the use of pauses and filler words. Also, an overall rating 
-was provided to characterize the public speaking quality as a whole. 
+was annotated to characterize the public speaking quality as a whole. 
 As a scale we use the MOS (Mean Opinion Score) 1-5 degradation, 
 also used by earlier works, where the value 3 always corresponds to a 
-neutral rating.
+neutral rating. All metadata and ground truth values for the five tasks 
+(overall, confidence, fillers, intonation and flow) are stored in file 
+`annotations_metadata.json`. 
 
 ## 3. Basline Methods and models
 ### 3.1 Setup 
