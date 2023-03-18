@@ -12,13 +12,12 @@ automatically assess the speaking quality in conferences over the annotated
 dataset. 
 
 ## 2. Data
-The dataset includes features from 387 audio recordings of 1.30 minutes duration 
+The dataset includes features from 387 audio recordings of 1.5 mins duration 
 each, created by randomly selecting 30 second segments from the start, 
 middle and end of the whole video presentations, that were collected from links 
 publicly available in the conference websites and YouTube. 
-The language of all segments is English. 
-
-22.16% of the speaker are female and 77.84\% are male. To capture a difference 
+The language of all segments is English. 22.16% of the speaker are female 
+and 77.84\% are male. To capture a difference 
 in the ethnicity background, we try to identify whether a speaker is a native 
 or non-native English speaker, when listening to the audios. 38.52% of the 
 speakers are native and 233 61.48% non-native. Finally, 44.5% of the speakers 
