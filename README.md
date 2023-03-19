@@ -16,7 +16,7 @@ The dataset includes features from 387 audio recordings of 1.5 mins duration
 each, created by randomly selecting 30 second segments from the start, 
 middle and end of the whole video presentations, that were collected from links 
 publicly available in the conference websites and YouTube. 
-The language of all segments is English. 22.16% of the speaker are female 
+The language of all speeches is English. 22.16% of the speakers are female 
 and 77.84\% are male. 38.52% of the 
 speakers are native and 233 61.48% non-native. 44.5% of the speakers 
 gave a talk in industry-driven conferences, thus we categorized them as 
@@ -30,9 +30,36 @@ flow of speech and the use of pauses and filler words. Also, an overall rating
 was annotated to characterize the public speaking quality as a whole. 
 As a scale we use the MOS (Mean Opinion Score) 1-5 degradation, 
 also used by earlier works, where the value 3 always corresponds to a 
-neutral rating. All metadata and ground truth values for the five tasks 
+neutral rating. The following table shows all annotation tasks:
+
+| Speech Aspect  | Rating Scale and Description |
+| ------------- | ------------- |
+| Confidence  | 1 (insecure) - 5 (convincing) |
+| Intonation  | 1 (no or extreme variance) - 5 (expressive)  |
+| Flow of Speech  | 1 (unpleasant) - 5 (engaging)  |
+| Pauses - Fillers  | 1 (too many) - 5 (none) |
+| Overall Rating | 1 (worst) - 5 (best) |
+
+For each task (speech aspect), at least two annotators have provided their 
+feedback. To generate the final ground truth for each recording, we compute 
+an average annotation rating. We also compute the mean absolute deviation (MAE)
+and the corresponding annotation confidence. 
+All metadata and ground truth values (average and MAE) for the five tasks 
 (overall, confidence, fillers, intonation and flow) are stored in file 
 `annotations_metadata.json`. 
+
+Audio features for each recording are given as a separate Numpy file. 
+Each recording is represented by either (a) a sequence of short-term feature 
+vectors or (b) a mel-spectrogram. All feature files are stored in npy files in 
+the `features` folder. Short-term features are extracted using the 
+`pyAudioAnalysis` library and they are stored in npy files with the 
+`_pyaudioanalysis.npy` postfix. Each file stores a matrix of 4500 68-D 
+feature vectors. Mel-spectrograms are stored in npy files with the 
+`_melgram.npy` postfix (4500 x 128 feature matrices). The 4500 short-term 
+frames in both cases yield from the fact that the adopted short-term step 
+(hop size) is 20 mseconds (and the duration of the file is 90 seconds). 
+Finally, the adopted window size is 40 mseconds.  
+
 
 ## 3. Basline Methods and models
 ### 3.1 Setup 
