@@ -1,13 +1,74 @@
-# public-speakers-quality
-A Dataset for Assessing Quality of Public Speakers
+# public-speakers-quality: A Dataset for Assessing Quality of Public Speakers
 
-## Setup 
+## 1. Intro
+Automatically assessing the quality of public speakers can be used to build 
+coaching applications and training tools that focus on improving presentation
+ skills. This is a dataset of audio recordings of more than 350 conference
+  presentations, annotated with regards to the corresponding speaking quality. 
+To assess the speaking quality we focus on aspects of public speech, such as 
+confidence, intonation, flow of speech and the use of pauses and filler words. 
+This repo also demonstrates the ability of various machine learning methods to 
+automatically assess the speaking quality in conferences over the annotated 
+dataset. 
+
+## 2. Data
+The dataset includes features from 387 audio recordings of 1.5 mins duration 
+each, created by randomly selecting 30 second segments from the start, 
+middle and end of the whole video presentations, that were collected from links 
+publicly available in the conference websites and YouTube. 
+The language of all speeches is English. 22.16% of the speakers are female 
+and 77.84\% are male. 38.52% of the 
+speakers are native and 233 61.48% non-native. 44.5% of the speakers 
+gave a talk in industry-driven conferences, thus we categorized them as 
+engineers, while the rest as academics. 
+Among the academics 24.2% of the speakers were senior academics
+(faculty, research scientists), while 27.4% of the speakers were junior 
+academics (post-docs and PhD candidates). 
+
+The annotated aspects of speaking quality are: confidence, intonation, 
+flow of speech and the use of pauses and filler words. Also, an overall rating 
+was annotated to characterize the public speaking quality as a whole. 
+As a scale we use the MOS (Mean Opinion Score) 1-5 degradation, 
+also used by earlier works, where the value 3 always corresponds to a 
+neutral rating. The following table shows all annotation tasks:
+
+| Speech Aspect  | Rating Scale and Description |
+| ------------- | ------------- |
+| Confidence  | 1 (insecure) - 5 (convincing) |
+| Intonation  | 1 (no or extreme variance) - 5 (expressive)  |
+| Flow of Speech  | 1 (unpleasant) - 5 (engaging)  |
+| Pauses - Fillers  | 1 (too many) - 5 (none) |
+| Overall Rating | 1 (worst) - 5 (best) |
+
+For each task (speech aspect), at least two annotators have provided their 
+feedback. To generate the final ground truth for each recording, we compute 
+an average annotation rating. We also compute the mean absolute deviation (MAE)
+and the corresponding annotation confidence. 
+All metadata and ground truth values (average and MAE) for the five tasks 
+(overall, confidence, fillers, intonation and flow) are stored in file 
+`annotations_metadata.json`. 
+
+Audio features for each recording are given as a separate Numpy file. 
+Each recording is represented by either (a) a sequence of short-term feature 
+vectors or (b) a mel-spectrogram. All feature files are stored in npy files in 
+the `features` folder. Short-term features are extracted using the 
+`pyAudioAnalysis` library and they are stored in npy files with the 
+`_pyaudioanalysis.npy` postfix. Each file stores a matrix of 4500 68-D 
+feature vectors. Mel-spectrograms are stored in npy files with the 
+`_melgram.npy` postfix (4500 x 128 feature matrices). The 4500 short-term 
+frames in both cases yield from the fact that the adopted short-term step 
+(hop size) is 20 mseconds (and the duration of the file is 90 seconds). 
+Finally, the adopted window size is 40 mseconds.  
+
+
+## 3. Basline Methods and models
+### 3.1 Setup 
 Install the required packages
 ```
 pip install -r requirements.txt
 ``` 
 
-## Inference 
+### 3.2 Inference 
 Test the models on your own audio file.
 
 In order to try the pretrained best models using segment-level feature statistics 
@@ -21,7 +82,7 @@ python3 inference.py -i <audio_input> -m <pretrained_model_path>
 - pretrained_model_path is the path to the pretrained model. Here you can use any
 of the models stored in output_models folder (confidence.pt, fillers.pt, flow.pt, intonation.pt, overall.pt)
 
-## Train models from scratch 
+### 3.2 Train models from scratch 
 
 - #### HCAF+LTA
 
