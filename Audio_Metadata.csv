@@ -1,0 +1,388 @@
+Conference,Year,Presenter:name,Presenter:gender,Presenter:seniority,Publication:title,Youtube_link
+HiPEAC,2021,Simon Thorpe,Male,Senior Academic,Why spiking neural networks are important,https://youtu.be/8K5oc4y0Vas
+LeadDev,2019,Franklin Hu,Male,Engineer,Building security culture on infrastructure teams,https://www.youtube.com/watch?v=-JtOKyELlr0
+Nullcon,2021,Natalie Silvanovich,Female,Engineer,Exploiting Android Messengers with WebRTC,https://www.youtube.com/watch?v=SkeOWvDXvK4
+AAAI,2021,Boyang Li,Male,Senior Academic,HyDRA: Hypergradient Data Relevance Analysis for Interpreting Deep Neural Networks,https://youtu.be/uLgHU1icW-o
+AAAI,2021,Mengemeng Ma,Male,Junior Academic,Multimodal Learning with Severely Missing Modality,https://youtu.be/75P535ob5-Q
+AAAI,2021,Prithviraj Ammanabrolu,Male,Senior Academic,"Automated Storytelling via Causal, Commonsense Plot Ordering",https://youtu.be/8j8kMa7U7gE
+AAAI,2021,Shahira Abousamra,Male,Junior Academic,Localization in the Crowd with Topological Constraints,https://youtu.be/dGs6hdLIAh8
+AAAI,2021,Shreyank Gowda,Male,Junior Academic,SMART Frame Selection for Action Recognition,https://youtu.be/X3spT18-Klg
+AAAI,2021,Tian Shi,Male,Junior Academic,A Simple and Effective Self-Supervised Contrastive Learning Framework for Aspect Detection,https://youtu.be/2Ug_hwYyJL8
+AAAI,2021,Weijia Li,Male,Senior Academic,Joint Semantic-Geometric Learning for Polygonal Building Segmentation,https://youtu.be/Kcnr22Wy02w
+AAAI,2021,Xingjian Zhen,Male,Junior Academic,Flow-based Generative Models for Learning Manifold to Manifold Mappings,https://youtu.be/0r96U0vXsCM
+AAAI,2021,Yichuan Li,Male,Junior Academic,Fact-Enhanced Synthetic News Generation,https://youtu.be/qnh8QAwu-Wg
+AAAI,2021,Jong-Yeong Kim,Male,Junior Academic,Split-and-Bridge: Adaptable Class Incremental Learning within a Single Neural Network,https://youtu.be/HbZAJZvBrhQ
+ACL,2021,Khyathi Raghavi Chandu,Male,Junior Academic,Grounding 'Grounding' in NLP,https://youtu.be/JolZhC_GoZU
+ACL,2021,Nils Reimers,Male,Senior Academic,The Curse of Dense Low Dimensional Information Retrieval for Large Index Sizes,https://youtu.be/UZH0zpfNjyU
+ACL,2021,Rishabh Bhardwaj,Male,Junior Academic,More Identifiable yet Equally Performant Transformers for Text Classification,https://youtu.be/hIUzZvpjGFI
+Ai4,2020,Aamir Aftab,Male,Engineer,AI/ML predictive analytics for multi phase flow in oil and gas production forecasting with Chevron,https://www.youtube.com/watch?v=MNfyGESyfP4
+Ai4,2020,Agus Sudjianto,Male,Engineer,Machine Learning Model Risk Management with Wells Fargo,https://www.youtube.com/watch?v=mG4oTLESC2E
+Ai4,2020,Alexander Statnikov,Male,Engineer,An Algorithm for Growing & Evolving Data Science Teams and Tech Capabilities with Square,https://www.youtube.com/watch?v=xQ8MJaMX9Ig
+Ai4,2020,AMIT DINGARE,Male,Engineer,Case Study on Using Machine Learning in Aluminum Industry with Novelis,https://www.youtube.com/watch?v=bphVG9Vw8_8
+Ai4,2020,Andrew Feldman,Male,Engineer,Addressing the Demand for AI Compute: How Cerebras Built the World’s First Wafer-Scale Processor,https://www.youtube.com/watch?v=759Q88OVjtQ
+Ai4,2020,Andrey Malevich,Male,Engineer,Practical Recommendations for Building Recommender Systems with Facebook,https://www.youtube.com/watch?v=RETEn5YLyO4
+Ai4,2020,Anthony Chang,Male,Engineer,Common Misconceptions of AI in Medicine: A Clinician Data Scientist Perspective with CHOC Children's,https://www.youtube.com/watch?v=ATtEwodAQFI
+Ai4,2020,Arun Verma,Male,Engineer,Quantitative Trading Strategies and Asset Pricing using Alternative Data and Machine learning,https://www.youtube.com/watch?v=J9OF8QIbCb8
+Ai4,2020,Ben Zweig,Male,Engineer,Indexing Human Capital Data with Revelio Labs,https://www.youtube.com/watch?v=we6UteeBczc
+Ai4,2020,Charles Givre,Male,Engineer,Data at REST? Unlocking Data from REST APIs with JPMorgan Chase,https://www.youtube.com/watch?v=XKemdlsKowo
+Ai4,2020,CHIP HUYEN,Female,Engineer,Bridging the Gap Between Research and Production in Machine Learning with Snorkel AI,https://www.youtube.com/watch?v=m9PB0U6ZHMc
+Ai4,2020,CHRIS GERPHEIDE,Female,Engineer,Research to Prod: Getting ML into real products at Bespoke,https://www.youtube.com/watch?v=xwS0-nssd-A
+Ai4,2020,CHRIS MILLIGAN,Male,Engineer,AI: The driving force behind the smart factory and the fourth industrial revolution with Nissan,https://www.youtube.com/watch?v=86_nPrnN0ZM
+Ai4,2020,Dan DeMers,Male,Engineer,The End of Integration: How a Data Fabric Turbocharges Your AI Transformation with Cinchy,https://www.youtube.com/watch?v=m0BEWs_dZ1E
+Ai4,2020,Daniel Bruce,Male,Engineer,Unlocking the Business Value of Drones and Robotics with Computer Vision with Levatas,https://www.youtube.com/watch?v=Yn6c5oWbZSg
+Ai4,2020,DEEPTHI CHANDRASEKARAN,Female,Engineer,Embedding AI in Utility Company’s DNA with National Grid,https://www.youtube.com/watch?v=bpc5VoF8jcY
+Ai4,2020,Dipjyoti Das,Male,Engineer,Discussion Regarding Gaussian Mixture model to Acquire New Customers in Non Native Territories,https://www.youtube.com/watch?v=K_5Ij0OawjI
+Ai4,2020,Enrico Santus,Male,Engineer,Natural Language Processing - Challenges and Opportunities in Healthcare with Bayer Pharmaceuticals,https://www.youtube.com/watch?v=PQwp9lPM4GQ
+Ai4,2020,Glynn Dennis,Male,Engineer,Personalizing AI for Human Subjects in Clinical Trials with AstraZeneca,https://www.youtube.com/watch?v=hV6r-BH30FA
+Ai4,2020,Jeff Evernham,Male,Engineer,How Intelligent Search Accelerates Drug Development with Sinequa,https://www.youtube.com/watch?v=O6mqbyrPrUQ
+Ai4,2020,Joyonna Gamble-George,Female,Engineer,AI-Driven Predictive Analytics for Heart Disease with SCIX,https://www.youtube.com/watch?v=IDae44WGcF4
+Ai4,2020,JUWEL RANA,Male,Engineer,Developing high Impact AI Strategy Fashion for Fashion Retail with Varner,https://www.youtube.com/watch?v=cZcF0DnQhV0
+Ai4,2020,Krzysztof Geras,Male,Engineer,Explainable Deep Neural Networks for Medical Image Analysis with NYU Center for Data Science,https://www.youtube.com/watch?v=1R88pEyCIuM
+Ai4,2020,Leslie Canavera,Female,Engineer,AI for a Changing Arctic with PolArctic LLC,https://www.youtube.com/watch?v=F-b6cz78RW4
+Ai4,2020,Luis Moraes,Male,Engineer,Developing First-Generation Analytics: A Predictive Maintenance Case Study with Western Midstream,https://www.youtube.com/watch?v=-9vQrIxv3Gk
+Ai4,2020,Madhu Kochar,Female,Engineer,Operationalize AI Throughout your Business with Intelligent Workflows With IBM,https://www.youtube.com/watch?v=QAxRavktnCQ
+Ai4,2020,Marcus Fowler,Male,Engineer,Securing the New Normal: How Cyber AI Learns on the Job with DarkTrace,https://www.youtube.com/watch?v=PxAQQQ3VAl0
+Ai4,2020,Marjan Mazrouei Sebdani,Female,Engineer,Emotion Classification: An NLP Application with Dun & Bradstreet,https://www.youtube.com/watch?v=_5N2vBUlZPo
+Ai4,2020,Matt Zeiler,Male,Engineer,Powering the Enterprise with Computer Vision with Clarifai,https://www.youtube.com/watch?v=a3BGnijvx8Q
+Ai4,2020,MEERA DAS,Female,Engineer,How to Curb the Rising Cost of AML Compliance with BMO Financial Group,https://www.youtube.com/watch?v=r_vbukW_4g4
+Ai4,2020,Mike King,Male,Engineer,How BNY Mellon Accelerates Time to Value With AI-Powered Data Management with BNY Mellon,https://www.youtube.com/watch?v=gBQJaFf47Pg
+Ai4,2020,Nicole Neumarker,Female,Engineer,Employing AI in Healthcare Analytics: COVID-19 and Other Predictive Use Cases with Cotiviti,https://www.youtube.com/watch?v=zA0hDRPd-hU
+Ai4,2020,Nishan Subedi,Male,Engineer,Complexity in Recommender Systems with Overstock.com,https://www.youtube.com/watch?v=YFOVoxQHe7Q
+Ai4,2020,Pearl Lieberman,Female,Engineer,Stop Operating Your AI In The Dark with Superwise,https://www.youtube.com/watch?v=S0uIu3U_H_o
+Ai4,2020,PHOEBE LIU,Female,Engineer,Training Conversational Agents on Noisy Data with Appen,https://www.youtube.com/watch?v=Vt6R2fiIsmE
+Ai4,2020,Prahlad Menon,Male,Engineer,Algorithmic Identification of Stroke Risk w/ Medical Imaging Based Appearance Models of the Heart,https://www.youtube.com/watch?v=1fwUjQOwXio
+Ai4,2020,Robert Budman,Male,Engineer,How Ambient Clinical Intelligence is Transforming the Provider-Patient Experience with Nuance Comm.,https://www.youtube.com/watch?v=QYbOefnU3I8
+Ai4,2020,Rose Chen,Female,Engineer,AI For the Supply Chain with WESCO International,https://www.youtube.com/watch?v=CO92s-V6I5A
+Ai4,2020,Safiya Noble,Female,Engineer,Algorithms of Oppression: How Search Engines Reinforce Racism - Dr. Safiya Noble,https://www.youtube.com/watch?v=7AHv6vUouU8
+Ai4,2020,Salah Khawaja,Male,Engineer,"Inspirations of the Future, Data, and AI with Bank of America Merrill Lynch",https://www.youtube.com/watch?v=21Ff-GNhWUA
+Ai4,2020,Salam Baniahmed,Male,Engineer,Cyber Resiliency: An Intelligent Line of Defense for Operational Technology Systems with Eaton,https://www.youtube.com/watch?v=wgQMN0KqZHs
+Ai4,2020,SHYAMALA PRAYAGA,Female,Engineer,Ethical AI Digital Assistants with Ford,https://www.youtube.com/watch?v=sMTXLDt-wog
+Ai4,2020,Song Zhang,Male,Engineer,Holostream for Remote Robot Control with Purdue University,https://www.youtube.com/watch?v=4-i1PiT-ed0
+Ai4,2020,Sri Ambati,Male,Engineer,Democratizing the Future of AI with H2O.ai,https://www.youtube.com/watch?v=FiGz-552CwE
+Ai4,2020,Stephen Wong,Male,Engineer,AI in Precision Diagnosis: Case Studies in Cancer and Stroke with Houston Methodist,https://www.youtube.com/watch?v=ueNXBrqh6k4
+Ai4,2020,Subash Sundaresan,Male,Engineer,"Powering Business Growth: Real-Time, Privacy-Enabled AI with Swarmin.ai",https://www.youtube.com/watch?v=Tez_cn2pdi8
+Ai4,2020,SUBHASIS BHATTACHARYA,Male,Engineer,Leveraging insight into the Supply Chain through advanced analytics with Wayfair,https://www.youtube.com/watch?v=AW7Z4-5DGjI
+Ai4,2020,Tokologo Phetla,Male,Engineer,Applying AI in Africa with Christopher Africa,https://www.youtube.com/watch?v=sFe4-EYi208
+Ai4,2020,Tucker Balch,Male,Engineer,AI Research at J.P. Morgan,https://www.youtube.com/watch?v=1XS57JCeePI
+ACL,2021,Duanchen Liu,Female,Senior Academic,Predicting pragmatic discourse features in the language of adults with autism spectrum disorder,https://youtu.be/MG4Y-C5z7sI
+Ai4,2020,Aura Greenberg,Female,Engineer,Opening Doors for AI - A Business Perspective with Crown Castle,https://www.youtube.com/watch?v=gnsUadLeqsg
+Ai4,2020,Josh Poduska,Male,Engineer,Monitoring Models at Scale with Domino Data Lab,https://www.youtube.com/watch?v=3gDnES63l7Y
+Ai4,2020,Meltem Ballam,Female,Engineer,Backbone of Computer Vision Pipelines: Feature Extraction with General Motors,https://www.youtube.com/watch?v=n0NthbbV8FI
+Ai4,2020,Rudradeb Mitra,Male,Engineer,Building AI Solutions Through Global Collaboration with Omdena,https://www.youtube.com/watch?v=g_Tk63JK6Js
+Ai4,2020,Vamsi Nellutla,Male,Engineer,AI Applications for Healthcare Economics with UnitedHealth Group,https://www.youtube.com/watch?v=WiC7ZS3g72g
+Conf42,2022,Karan Singh,Male,Engineer,Edge-to-Core Machine Learning and Data Pipeline on k8s,https://www.youtube.com/watch?v=GoY8XV_FSPI
+DEVOPSConf,2022,Helen Beal,Female,Engineer,The power of DevOps combined with Value Stream Management,https://www.youtube.com/watch?v=Zjfum_mD9l8
+GOTO,2021,Woody Zuill,Male,Engineer,Let’s Make It Easy,https://www.youtube.com/watch?v=Jtt7PAejrFA
+HiPEAC,2021,Adrien Suau,Male,Academic,Quantum technologies and computing,https://youtu.be/6NGqOE7OSL4
+Ai4,2020,Venu Vasudevan,Male,Engineer,The AI Impact on Daily Touch Products with Procter & Gamble,https://www.youtube.com/watch?v=LNyjb-Hq3iI
+Ai4,2020,VERED SHWARTZ,Female,Engineer,Recent Breakthroughs and Uphill Battles in Modern Natural Language Processing,https://www.youtube.com/watch?v=VC9JRY5IezA
+Ai4,2020,Vivek Thakral,Male,Engineer,Business Transformation fueled by Artificial Intelligence with HARMAN International,https://www.youtube.com/watch?v=JW0zWIZi5fQ
+Conf42,2022,Andrew Knight,Male,Engineer,How Visual AI Makes Testing a Breeze,https://www.youtube.com/watch?v=GpFtkqdto8g
+Conf42,2022,Felice Pescatore,Male,Engineer,AI at the service of Business Agility,https://www.youtube.com/watch?v=idRzj8hiFXU
+Conf42,2022,Harika Chebrolu,Female,Engineer,Using AI to Accelerate the Smart Green Transition,https://www.youtube.com/watch?v=WGmhVr-FLRI
+Conf42,2022,Jesus Saldana Gonzalez,Male,Engineer,Machine learning won't put you out of a job,https://www.youtube.com/watch?v=bsn3f52huUw
+Conf42,2022,Johannes Hotter,Male,Engineer,Greenfield vs. Brownfield Data Labeling,https://www.youtube.com/watch?v=tA6wNYTj0dA
+Conf42,2022,Joshua Arvin Lat,Male,Engineer,Hacking and Securing ML Systems and Environments,https://www.youtube.com/watch?v=lR3xPifpHSc
+Conf42,2022,Julien Simon,Male,Engineer,Machine Learning 2.0 with Hugging Face,https://www.youtube.com/watch?v=BiJWFHL7u_Y
+Conf42,2022,Laura Ham,Female,Engineer,Build your own search application with Weaviate,https://www.youtube.com/watch?v=_V_Nd85Ihsg
+Conf42,2022,Mohsin Khan,Male,Engineer,Serverless Architecture for Product Defect Detection,https://www.youtube.com/watch?v=DGajwPBwyC4
+Conf42,2022,Vasco Veloso,Male,Engineer,Artificial Intelligence through the ages,https://www.youtube.com/watch?v=ccE6gL2StMo
+DEVOPSConf,2022,Adam Moss,Male,Engineer,IT Insourcing: An Engineers Perspective,https://www.youtube.com/watch?v=i79zuYtpLmU
+DEVOPSConf,2022,Christophe Bruchansky,Male,Engineer,Ethics and corporate social responsibility,https://www.youtube.com/watch?v=EUc3FEKTFMk
+DEVOPSConf,2022,Dan Grøndahl Glavind,Male,Engineer,Culture as a service,https://www.youtube.com/watch?v=0xP7uCOAjd0
+DEVOPSConf,2022,Dotan Horovits,Male,Engineer,How to use OpenTelemetry,https://www.youtube.com/watch?v=PWorbbYe1-E
+DEVOPSConf,2022,Kohsuke Kawaguchi,Male,Engineer,My personal journey around diversity,https://www.youtube.com/watch?v=VqRqe0JJHCg
+DEVOPSConf,2022,Larry Maccherone,Male,Engineer,Shifting Security left,https://www.youtube.com/watch?v=b5q_iWlwL1E
+DEVOPSConf,2022,Lee Faus,Male,Engineer,"Business outcomes: Standards, Transparency and Collaboration",https://www.youtube.com/watch?v=SWHApZxQweE
+DEVOPSConf,2022,Lesley Cordero,Female,Engineer,How to use GameDays,https://www.youtube.com/watch?v=e2iE26V9swY
+DEVOPSConf,2022,Michael Stahnke,Male,Engineer,Find top tech talent for growing startups,https://www.youtube.com/watch?v=w_YwLKmuXmM
+DEVOPSConf,2022,Nočnica Fee,Male,Engineer,Why infrastructure as code?,https://www.youtube.com/watch?v=6jW6AxPCMJw
+DEVOPSConf,2022,Ron Powell,Male,Engineer,Benchmarks for high performing teams in 2021,https://www.youtube.com/watch?v=M1gkVhgPwLg
+DEVOPSConf,2022,Sari Alander,Female,Engineer,What all transformation leaders need to know,https://www.youtube.com/watch?v=F7FPx6dTt4k
+Euro-Par,2020,Ewa Deelman,Female,Senior Academic,Automating Science Workflows: Challenges and Opportunities,https://youtu.be/RLM1dZdqTuE
+Euro-Par,2020,Geoffrey Fox,Female,Senior Academic,"Advancing Science with Deep Learning, HPC, Data Benchmarks and Data Engineering",https://youtu.be/q-N8VblJdbg
+Euro-Par,2020,Piotr Sankowski,Male,Senior Academic,Breaking the PRAM O(log n) complexity bounds on MPC,https://youtu.be/0TZdxuMSFx8
+GOTO,2021,Ana-Maria Mihalceanu,Female,Engineer,The Automation Challenge: Kubernetes Operators vs Helm Charts,https://www.youtube.com/watch?v=dGx8PjmWkyM
+GOTO,2021,Gojko Adzic,Male,Engineer,You're Testing WHAT?,https://www.youtube.com/watch?v=5_IW7npQk9k
+GOTO,2021,James Lewis,Male,Engineer,"Scale, Flow and Microservices",https://www.youtube.com/watch?v=yJHvMabxVYU
+GOTO,2021,Sander Hoogendoorn,Male,Engineer,How Microteams Change the Way We Collaborate. Again,https://www.youtube.com/watch?v=fCMuzSAyAGw
+GOTO,2021,Stefan Tilkov,Male,Engineer,Is Domain-Driven Design Overrated?,https://www.youtube.com/watch?v=ZZp9RQEGeqQ
+GOTO,2022,Alex Bikfalvi,Male,Engineer,Achieving High Performance with an Internal Developer Platform,https://www.youtube.com/watch?v=szVzIFhzFD4
+GOTO,2022,Arno Haase,Male,Engineer,Static Code Analysis - A Behind-the-scenes Look,https://www.youtube.com/watch?v=4HhHER0n8ls
+GOTO,2022,Brian Vermeer,Male,Engineer,Live Hacking: Breaking into Your Web App,https://www.youtube.com/watch?v=teLsZFZZ1Z0
+GOTO,2022,Eric Johnson,Male,Engineer,Rediscovering Humanity in Tech,https://www.youtube.com/watch?v=hv4xkrgYknw
+GOTO,2022,Flavio Deroo,Male,Engineer,From Monolith to State-of-the-Art Banking,https://www.youtube.com/watch?v=gVucnhnyYTw
+GOTO,2022,Fred George,Male,Engineer,Sabotaging an Agile Transformation,https://www.youtube.com/watch?v=3cDpLVuQXEo
+GOTO,2022,Kevlin Henney,Male,Engineer,Structure and Interpretation of Test Cases,https://www.youtube.com/watch?v=MWsk1h8pv2Q
+GOTO,2022,Madhu Sivasubramanian,Female,Engineer,Challenges of Large Enterprises in Moving to the Public Cloud,https://www.youtube.com/watch?v=qhairDunuIA
+GOTO,2022,Sander Hoogendoorn,Male,Engineer,The Zen of Programming,https://www.youtube.com/watch?v=syGnlE_oosM
+HAI,2020,"Ryan Tibshirani,",Male,Senior Academic,Epidemiological Forecasting Tools for COVID-19,https://youtu.be/Ieg6zrElkaI
+HAI,2020,Xavier Amatriain,Male,Senior Academic,An Online Virtual Care Approach,https://youtu.be/TGU5qdhUu3c
+HiPEAC,2021,Albert Cohen,Male,Senior Academic,Inspiring Futures: Fighting compiler dragons with Google Brain,https://youtu.be/pLCoxZhYi5E
+HiPEAC,2021,Alberto Bosio,Male,Senior Academic,Inspiring Futures: Mobility and openness in academia,https://youtu.be/QYMuqh60cEY
+HiPEAC,2021,Babis Chalios,Male,Senior Academic,Inspiring Futures: Starting a start-up,https://youtu.be/iYkXXaveN7w
+HiPEAC,2021,Benoît Dupont de Dinechin,Male,Senior Academic,How to co-design a manycore edge accelerator,https://youtu.be/myt9-hKC7bM
+HiPEAC,2021,Cristell Maneux,Female,Junior Academic,FVLLMONTI: Technology enabling on-device AI,https://youtu.be/Ve1uXEr9kd8
+HiPEAC,2021,David Atienza,Male,Senior Academic,The nervous system as an IoT: Brain-inspired healthcare wearables,https://youtu.be/F52zXdtNJhY
+HiPEAC,2021,Haralampos Stratigopouos,Male,Senior Academic,AI hardware accelerators for safety-critical applications,https://youtu.be/urYoFSsMo2o
+HiPEAC,2021,Karol Desnos,Male,Senior Academic,Tangled program graphs: Reinforcement learning for hardware-friendly machine learning,https://youtu.be/umIoJnmx9Vg
+HiPEAC,2021,Marc Bocquet,Male,Senior Academic,In-memory computing: Hardware accelerator for embedded AI,https://youtu.be/Btfs-VzzUas
+HiPEAC,2021,Olivier Sentieys,Male,Senior Academic,Approximate Deep Learning Accelerators,https://youtu.be/qVQ96JBUvrk
+ICASSP,2020,Alexander H. Liu,Male,Junior Academic,ASR WITH WORD EMBEDDING REGULARIZATION AND FUSED DECODING,https://youtu.be/1j46kdawA4Q
+ICASSP,2020,Andy T. Liu,Male,Junior Academic,MOCKINGJAY: UNSUPERVISED SPEECH REPRESENTATION LEARNING WITH DEEP BIDIRECTIONAL TRANSFORMER ENCODERS,https://youtu.be/JlOSyRNFjOw
+ICASSP,2020,Chung-Yi LI,Male,Senior Academic,WHAT DOES A NETWORK LAYER HEAR? ANALYZING HIDDEN REPRESENTATIONS OF END-TO-END ASR THROUGH SPEECH SYNTHESIS,https://youtu.be/6gtn7H-pWr8
+ICASSP,2020,Da-Yi Wu,Male,Junior Academic,ONE-SHOT VOICE CONVERSION BY VECTOR QUANTIZATION,https://youtu.be/W3t8FHgV90M
+ICASSP,2020,Gene-Ping Yang,Male,Junior Academic,INTERRUPTED AND CASCADED PERMUTATION INVARIANT TRAINING FOR SPEECH SEPARATION,https://youtu.be/RUhkc6ihyYI
+ICASSP,2020,Haibin Wu,Male,Junior Academic,Defense against adversarial attacks on spoofing countermeasures of ASV,https://youtu.be/sKwz5GvxGgI
+ICASSP,2020,Jui-Yang Hsu,Male,Academic,META LEARNING FOR END-TO-END LOW-RESOURCE SPEECH RECOGNITION,https://youtu.be/goav0eXKPwg
+ICASSP,2020,Shun-Po Chuang,Male,Academic (Engineer),TRAINING A CODE-SWITCHING LANGUAGE MODEL WITH MONOLINGUAL DATA,https://youtu.be/qf0j0A0-SVM
+ICASSP,2020,Tao Tu,Male,Academic (Engineer),TOWARDS UNSUPERVISED SPEECH RECOGNITION AND SYNTHESIS WITH QUANTIZED SPEECH REPRESENTATION LEARNING,https://youtu.be/cnZdfLSqwiE
+ICFP,2021,Adam Chlipala,Male,Senior Academic,Skipping the Binder Bureaucracy with Mixed Embeddings in a Semantics Course (Functional Pearl),https://www.youtube.com/watch?v=C2HFRlj7qT8
+ICFP,2021,Alejandro Aguirre,Male,Junior Academic,Higher-Order Probabilistic Adversarial Computations: Categorical Semantics and Program Logics,https://www.youtube.com/watch?v=gar7kjZx8fw
+ICFP,2021,Aymeric Fromherz,Male,Junior Academic,Steel: Proof-Oriented Programming in a Dependently Typed Concurrent Separation Logic,https://www.youtube.com/watch?v=Xcg7i69AMdY
+ICFP,2021,Chaitanya Koparkar,Male,Academic,Efficient Tree-Traversals: Reconciling Parallelism and Dense Data Representations,https://www.youtube.com/watch?v=eeHYCq46nhE
+ICFP,2021,David M. Kahn,Male,Junior Academic,Automatic Amortized Resource Analysis with the Quantum Physicist’s Method,https://www.youtube.com/watch?v=5w1ux-5hInQ
+ICFP,2021,Denis Merigoux,Male,Junior Academic,Catala: A Programming Language for the Law,https://www.youtube.com/watch?v=jmHwAh_-IOU
+ICFP,2021,Donnacha Oisín Kidney,Male,Junior Academic,Algebras for Weighted Search,https://www.youtube.com/watch?v=n6oS6X-DOlg
+ICFP,2021,Glen Mével,Male,Junior Academic,Formal Verification of a Concurrent Bounded Queue in a Weak Memory Model,https://www.youtube.com/watch?v=464UmVWTtUo
+ICFP,2021,Kimball Germane,Male,Senior Academic,Newly-Single and Loving It: Improving Higher-Order Must-Alias Analysis with Heap Fragments,https://www.youtube.com/watch?v=T60ePDdoXEM
+ICFP,2021,Li-yao Xia,Male,Junior Academic,Reasoning about the Garden of Forking Paths,https://www.youtube.com/watch?v=YSVFUjUcWzo
+ICFP,2021,Lukas Lazarek,Male,Junior Academic,How to Evaluate Blame for Gradual Types,https://www.youtube.com/watch?v=_S7BYbYb6Yk
+ICFP,2021,Martin Avanzini,Male,Senior Academic,On Continuation-Passing Transformations and Expected Cost Analysis,https://www.youtube.com/watch?v=bXeFLcy5Bp4
+ICFP,2021,Nick Giannarakis,Male,Junior Academic,ProbNV: Probabilistic Verification of Network Control Planes,https://www.youtube.com/watch?v=07e32aS4qQE
+ICFP,2021,Nikita Zyuzin,Male,Junior Academic,Contextual Modal Types for Algebraic Effects and Handlers,https://www.youtube.com/watch?v=UdUl3vRmhsQ
+ICFP,2021,Nikos Vasilakis,Male,Senior Academic,An Order-Aware Dataflow Model for Parallel Unix Pipelines,https://www.youtube.com/watch?v=nCoXaSliCww
+ICFP,2021,Ningning Xie,Female,Senior Academic,Generalized Evidence Passing for Effect Handlers: Efficient Compilation of Effect Handlers to C,https://www.youtube.com/watch?v=yAT0qYlD0UM
+ICFP,2021,Richard A. Eisenberg,Male,Senior Academic,An Existential Crisis Resolved: Type Inference for First-Class Existential Types,https://www.youtube.com/watch?v=u_ugn9vmP2g
+ICFP,2021,Sam Caldwell,Male,Academic (Engineer),Typed Dataspace Actors,https://www.youtube.com/watch?v=4KXbY1T2neY
+ICFP,2021,Sandro Stucki,Male,Senior Academic,A Theory of Higher-Order Subtyping with Type Intervals,https://www.youtube.com/watch?v=rf3OtJ_Uz_o
+ICFP,2021,Taro Sekiyama,Male,Senior Academic,CPS Transformation with Affine Types for Call-By-Value Implicit Polymorphism,https://www.youtube.com/watch?v=jfZqY9oMKxQ
+ICFP,2021,Xuejing Huang,Male,Academic,Distributing Intersection and Union Types with Splits and Duality (Functional Pearl),https://www.youtube.com/watch?v=5xbDPlavQcM
+ICFP,2021,Yannick Zakowski,Male,Senior Academic,"Modular, Compositional, and Executable Formal Semantics for LLVM IR",https://www.youtube.com/watch?v=n8B07nG0BD0
+ICFP,2021,Yasunari Watanabe,Male,Academic (Engineer),Certifying the Synthesis of Heap-Manipulating Programs,https://www.youtube.com/watch?v=gML3b6PWnbg
+ICLR,2021,Alexander Richard,Male,Senior Academic,Neural Synthesis of Binaural Speech From Mono Audio,https://www.youtube.com/watch?v=RbZ1a4G8y1Q&t=16s
+ICLR,2021,Atsushi Nitanda,Male,Senior Academic,Optimal Rates for Averaged Stochastic Gradient Descent under Neural Tangent Kernel Regime,https://www.youtube.com/watch?v=EngmyV7mF_A&t=7s
+ICLR,2021,Cheng-Hao Ho,Male,Senior Academic,LAMOL: LAnguage MOdeling for Lifelong Language Learning,https://youtu.be/cW04Sb02lU4
+ICLR,2021,Ian Gemp,Male,Senior Academic,EigenGame PCA as a Nash Equilibrium,https://www.youtube.com/watch?v=uCWRCXUKobk&t=1s
+ICLR,2021,Meire Fortunato,Female,Senior Academic,Learning Mesh Based Simulation with Graph Networks,https://www.youtube.com/watch?v=9xVyMkL7rjo&t=4s
+ICLR,2021,Michael E. Sander,Male,Junior Academic,Momentum Residual Neural Networks,https://www.youtube.com/watch?v=4PQR7ErASNo&t=1s
+ICLR,2021,Yang Song,Male,Junior Academic,Score Based Generative Modeling through Stochastic Differential Equations,https://www.youtube.com/watch?v=L9ZegT87QK8&t=16s
+ICLR,2022,Adam Dziedzic,Male,Junior Academic,Increasing the Cost of Model Extraction with Calibrated Proof of Work (ICLR 2022 Spotlight),https://www.youtube.com/watch?v=8D7SpGa5jTw&t=2s
+ICLR,2022,Albert Webson,Male,Junior Academic,Multitask Prompted Training Enables Zero-Shot Task Generalization,https://www.youtube.com/watch?v=DZsHeH7nCPg&t=8s
+ICLR,2022,Ali Jahanian,Male,Senior Academic,GenRep: Generative Models as a Data Source for Multiview Representation Learning,https://www.youtube.com/watch?v=qYmGvVrGZno&t=2s
+ICLR,2022,Been Kim,Female,Senior Academic,Beyond interpretability: developing a language to shape our relationships with AI,https://www.youtube.com/watch?v=Ub45cGEcTB0&t=11s
+ICLR,2022,Bertrand Charpentier,Male,Junior Academic,Differentiable DAG Sampling,https://www.youtube.com/watch?v=JiS7wJle2Ao&t=7s
+ICLR,2022,Cheng Wan,Male,Junior Academic,PipeGCN: Efficient Full-Graph Training of Graph Convolutional Networks with Pipelined Feature Communication,https://www.youtube.com/watch?v=kmUZIEbyypI&t=1s
+ICLR,2022,Dhruv Shah,Male,Senior Academic,Value Function Spaces: Skill-Centric State Abstractions for Long-Horizon Reasoning,https://www.youtube.com/watch?v=KwBMWcPhZZQ&t=1s
+ICLR,2022,Dingfan Chen,Female,Junior Academic,RelaxLoss: Defending Membership Inference Attacks without Losing Utility,https://www.youtube.com/watch?v=Iyu0gNC3oYE&t=4s
+ICLR,2022,Felix Petersen,Male,Senior Academic,Monotonic Differentiable Sorting Networks,https://www.youtube.com/watch?v=Rl-sFaE1z4M&t=9s
+ICLR,2022,Glen Berseth,Male,Senior Academic,Continual Meta Policy Search,https://www.youtube.com/watch?v=IAH_qFIQxxc
+ICLR,2022,Homanga Bharadwaj,Male,Junior Academic,Information Prioritization through Empowerment in Visual Model-based RL,https://www.youtube.com/watch?v=jFaYXj63S8s&t=1s
+ICLR,2022,Jason McEwen,Male,Senior Academic,Scattering Networks on the Sphere for Scalable and Rotationally Equivariant Spherical CNNs,https://www.youtube.com/watch?v=FVsT1Mvkd60&t=11s
+ICLR,2022,Johanna Sommer,Female,Junior Academic,Generalization of Neural Combinatorial Solvers Through the Lens of Adversarial Robustness,https://www.youtube.com/watch?v=HVRpjMtZHCk&t=38s
+ICLR,2022,Kunchang Li,Male,Junior Academic,UniFormer: Unified Transformer for Efficient Spatial-Temporal Representation Learning,https://www.youtube.com/watch?v=7Q_Yfvsm15k&t=1s
+ICLR,2022,Mark Hamilton,Male,Junior Academic,"Axiomatic Explanations for Visual Search, Retrieval, and Similarity Learning ",https://www.youtube.com/watch?v=dKO_qhGEN_I
+ICLR,2022,Max Morrison,Male,Junior Academic,Reproducible Subjective Evaluation,https://www.youtube.com/watch?v=Usbn4TVtALE&t=2s
+ICLR,2022,Nicholas A. Lord,Male,Academic,Attacking deep networks with surrogate-based adversarial black-box methods is easy,https://www.youtube.com/watch?v=gKzwEq6j5C8&t=3s
+ICLR,2022,Ning Yu,Male,Senior Academic,Responsible Disclosure of Generative Models Using Scalable Fingerprinting,https://www.youtube.com/watch?v=UlpGtwEof3o&t=4s
+ICLR,2022,Samar Hadou,Female,Junior Academic,Space-Time Graph Neural Networks,https://www.youtube.com/watch?v=GbJZzfMSQzs&t=4s
+ICLR,2022,Sang Michael Xie,Male,Junior Academic,An Explanation of In-context Learning as Implicit Bayesian Inference,https://www.youtube.com/watch?v=O4WMiIJwgd4&t=4s
+ICLR,2022,Sarath Sreedharan,Male,Senior Academic,Bridging the Gap: Providing Post-Hoc Symbolic Explanations for Sequential Decision-Making Problems with Inscrutable Representations,https://www.youtube.com/watch?v=CVVBBFx3GDk&t=5s
+ICLR,2022,Seungjun Nah,Male,Senior Academic,Clean Images are Hard to Reblur: Exploiting the Ill-Posed Inverse Task for Dynamic Scene Deblurring,https://www.youtube.com/watch?v=A3Eq_Dtz7d0&t=1s
+ICLR,2022,Xiang Fu,Male,Junior Academic,Simulate Time-integrated Coarse-grained Molecular Dynamics with Geometric Machine Learning,https://www.youtube.com/watch?v=l3aGVjQezsc&t=5s
+ICLR,2022,Xikun Zhang,Male,Junior Academic,GreaseLM: Graph REASoning Enhanced Language Models for Question Answering,https://www.youtube.com/watch?v=evlTavT4Qu4&t=12s
+ICLR,2022,Yan Zhang,Male,Senior Academic,Multiset-Equivariant Set Prediction with Approximate Implicit Differentiation,https://www.youtube.com/watch?v=2iGmXmjaQus&t=50s
+ICLR,2022,Yaroslav Ivchenkov,Male,Junior Academic,Factorized World Models for Learning Causal Relationships,https://www.youtube.com/watch?v=q5IRI4PSKbA&t=1s
+ICLR,2022,Yi Zeng,Male,Junior Academic,Adversarial Unlearning of Backdoors via Implicit Hypergradient,https://www.youtube.com/watch?v=j8BwMYJtPdg&t=6s
+ICLR,2022,Yonggan Fu,Male,Junior Academic,Patch-Fool: Are Vision Transformers Always Robust Against Adversarial Perturbations?,https://www.youtube.com/watch?v=5rihXwvGNYo&t=11s
+ICLR,2022,Yonghyeon Lee,Male,Junior Academic,Regularized Autoencoders for Isometric Representation Learning,https://www.youtube.com/watch?v=5bxwtsC6bIE&t=1s
+ICML,2021,Antoine Liutkus,Male,Senior Academic,Relative Positional Encoding for Transformers with Linear Complexity,https://www.youtube.com/watch?v=7XHucAvHNKs
+ICML,2021,Beatrice Bevilacqua,Female,Junior Academic,Size Invariant Graph Representations for Graph Classification Extrapolations,https://www.youtube.com/watch?v=Vj0xEi8sxsg&t=3s
+ICML,2021,Jiaojiao Fan,Female,Junior Academic,Scalable Computations of Wasserstein Barycenter via Input Convex Neural Networks,https://www.youtube.com/watch?v=itORG1xzk58
+ICML,2021,Joel Z. Leibo,Male,Senior Academic,Scalable Evaluation of Multi-Agent Reinforcement Learning with Melting Pot,https://www.youtube.com/watch?v=tfFSpyzYiYY&t=3s
+ICML,2021,Karl Cobbe,Male,Senior Academic,Phasic Policy Gradient,https://www.youtube.com/watch?v=2F-ru_yBo9w&t=1s
+ICML,2021,Runzhe Wan,Male,Senior Academic,Deeply-Debiased Off-Policy Interval Estimation,https://www.youtube.com/watch?v=uAEWmmm8aDM
+ICML,2021,Yihe Dong,Female,Senior Academic,Attention is not all you need pure attention loses rank doubly exponential depth,https://www.youtube.com/watch?v=KGXnFLnaxQg&t=18s
+ICML,2021,Yuandong Tian,Male,Senior Academic,Understanding self-supervised learning dynamics without contrastive pairs,https://www.youtube.com/watch?v=ONQjVgEuPvM&t=775s
+ICML,2021,Yucheng Lu,Male,Junior Academic,Optimal Complexity in Decentralized Training,https://www.youtube.com/watch?v=clw7nxw2iK0
+ICNLSP,2021,Aditeya Baral,Male,Academic,MAPLE–MAsking words to generate blackout Poetry using sequence-to-sequence Learning.,https://www.youtube.com/watch?v=wBbfDBtStDE
+ICNLSP,2021,Aicha Chorana,Female,Junior Academic,User Generated Content and Engagement Analysis in Social Media case of Algerian Brands,https://www.youtube.com/watch?v=1_y84G1XP38
+ICNLSP,2021,Anjali Ragupathi,Female,Junior Academic,Compressive Performers in Language Modelling,https://www.youtube.com/watch?v=6hJ5DUQZm4k
+ICNLSP,2021,Anna Favaro,Female,Junior Academic,ITAcotron 2: Transfering English Speech Synthesis Architectures and Speech Features to Italian,https://www.youtube.com/watch?v=H5n2xm-7tao
+ICNLSP,2021,Anuj Gopal,Male,Senior Academic,Automated Recognition of Hindi Word Audio Clips for Indian Children using Clustering-based Filters and Binary Classifier,https://www.youtube.com/watch?v=pQYpMAHtuCE
+ICNLSP,2021,Carl Strathearn,Male,Senior Academic,The Task2Dial Dataset: A Novel Dataset for Commonsense enhanced Task-based Dialogue Grounded in Documents,https://www.youtube.com/watch?v=zISkwn95RXs
+ICNLSP,2021,Caroline Kendrick,Female,Senior Academic,Audio-Visual Recipe Guidance for Smart Kitchen Devices,https://www.youtube.com/watch?v=qU77bzSG7tI
+ICNLSP,2021,Christopher Haberland,Male,Senior Academic,Orthographic Transliteration for Kabyle Speech Recognition,https://www.youtube.com/watch?v=stzwrUxpyO0
+ICNLSP,2021,Fazia Karaoui,Female,Junior Academic,The Articulatory and acoustics Effects of Pharyngeal Consonants on Adjacent Vowels in Arabic Language,https://www.youtube.com/watch?v=M-ytmRjNqmo
+ICNLSP,2021,Gerhard Hagerer,Male,Junior Academic,End-to-End Annotator Bias Approximation on Crowdsourced Single-Label Sentiment Analysis,https://www.youtube.com/watch?v=fuQVmqnMiPI
+ICNLSP,2021,Hadi Khalilia,Male,Junior Academic,The Quality of Lexical Semantic Resources: A Survey,https://www.youtube.com/watch?v=6-pdhy-Ape8
+ICNLSP,2021,"Ignacio de Toledo Rodriguez,",Male,Junior Academic,Formulating Automated Responses to Cognitive Distortions for CBT Interactions,https://www.youtube.com/watch?v=UE_OcL0sxFY
+ICNLSP,2021,Kasturi Bhattacharjee,Male,Senior Academic,Domain and Task-Informed Sample Selection for Cross-Domain Target-based Sentiment Analysis,https://www.youtube.com/watch?v=BlVNBrDmHUw
+ICNLSP,2021,Marco Gaido,Male,Senior Academic,Beyond Voice Activity Detection,https://www.youtube.com/watch?v=p1X8QuC7x8U
+ICNLSP,2021,Mohamed Amine Menacer,Male,Senior Academic,An interpretable person-job fitting approach based on classification and ranking,https://www.youtube.com/watch?v=OlIPHHVnmiA
+ICNLSP,2021,Muhammad Saleh Al-Qurishi,Male,Senior Academic,Arabic Named Entity Recognition Using Transformer based CRF Model,https://www.youtube.com/watch?v=sRvTTlIEmW4
+ICNLSP,2021,Rahul Raman,Male,Senior Academic,A Comparative Study on Language Models for the Kannada Language,https://www.youtube.com/watch?v=JnnqdP-kD2M
+ICNLSP,2021,Shuang Ao,Female,Senior Academic,Learning ULMFiT and Self-Distillation with Calibration for Medical Dialogue System,https://www.youtube.com/watch?v=rNoMJOnbYkE
+ICNLSP,2021,Sofia Eleftheriou,Female,Junior Academic,Automatic Assessment of Speaking Skills Using Aural and Textual Information,https://www.youtube.com/watch?v=2LuybuW4M28
+IJCAI-ECAI,2018,Andrew G. Barto,Male,Senior Academic,A History of Reinforcement Learning,https://youtu.be/ul6B2oFPNDM
+IJCAI-ECAI,2018,Milind Tambe,Male,Senior Academic,AI & Multiagent Systems Research for Social Good,https://youtu.be/O2su1u2AXG0
+IJCAI-ECAI,2018,Yann LeCun,Male,Senior Academic,Learning Models: The Next Step Towards Artificial Intelligence,https://youtu.be/U2mhZ9E8Fk8
+INTERSPEECH,2020,Da-Yi Wu,Male,Academic (Engineer),VQVC+: One-Shot Voice Conversion by Vector Quantization and U-Net architecture,https://youtu.be/JWGVfVSvQwc
+INTERSPEECH,2020,Haibin Wu,Male,Junior Academic,Defense for Black-box Attacks on Anti-spoofing Models by Self-Supervised Learning,https://youtu.be/k81atCYWpzg
+INTERSPEECH,2020,Po-chun Hsu,Male,Academic (Engineer),WG-WaveNet: Real-Time High-Fidelity Speech Synthesis without GPU,https://youtu.be/rsbT7X2-g7E
+INTERSPEECH,2020,Shu-wen Yang,Male,Academic (Engineer),Understanding Self-Attention of Self-Supervised Audio Transformers,https://youtu.be/RJq_B416V1Q
+INTERSPEECH,2020,Tao Tu,Male,Academic (Engineer),Semi-supervised Learning for Multi-speaker Text-to-speech Synthesis Using Discrete Speech Representation,https://youtu.be/3b1S20iVyMY
+INTERSPEECH,2020,Yi-Chen Chen,Male,Academic,DARTS-ASR: Differentiable Architecture Search for Multilingual Speech Recognition and Adaptation,https://youtu.be/rztqT8RXyuI
+INTERSPEECH,2020,Yung-Sung Chuang,Male,Junior Academic,SpeechBERT: An Audio-and-text Jointly Learned Language Model for End-to-end Spoken Question Answering,https://youtu.be/7mf7nSh8dGE
+IPC,2019,Arne Blankerts,Male,Engineer,Optimizing nginx and PHP-FPM – from Beginner to Expert to Crazy,https://youtu.be/VtKTOZFfoug
+IPC,2019,Denys Bulakh,Male,Engineer,Fix me if you can: architecture evolution step by step,https://youtu.be/5YY2bW4agBU
+IPC,2019,Oliver Sturm,Male,Engineer,CQRS and Event Sourcing,https://youtu.be/Cq0Qal_atgY
+IPC,2019,Rim Khazhin,Male,Engineer,Fault-tolerant System design,https://youtu.be/9IRKjBJybuo
+LeadDev,2019,Aish Raj Dahal,Male,Engineer,Scaling performance at Slack's scale,https://www.youtube.com/watch?v=jIXqTVCnojc
+LeadDev,2019,Angie Jones,Female,Engineer,The reality of testing in an artificial world,https://www.youtube.com/watch?v=ouLawtQ87Dw
+LeadDev,2019,Asim Hussain,Male,Engineer,AI-powered JavaScript applications,https://www.youtube.com/watch?v=hMHyMj8A-EM
+LeadDev,2019,Birgitta Boeckeler,Female,Engineer,Cultivating architecture,https://www.youtube.com/watch?v=--t3uk3_rSw
+LeadDev,2019,Brian Scanlan,Male,Engineer,Fixing out-of-hours on-call,https://www.youtube.com/watch?v=baI_RUSPYDw
+LeadDev,2019,David Ayers,Male,Engineer,Communicating and documenting architectural decisions,https://www.youtube.com/watch?v=rwfXkSjFhzc
+LeadDev,2019,Dora Militaru,Female,Engineer,Inclusion starts with an I,https://www.youtube.com/watch?v=vSQdyFUuJVA
+LeadDev,2019,Duretti Hirpa,Female,Engineer,How to affect change without losing your job,https://www.youtube.com/watch?v=a9H7SGuRrC8
+LeadDev,2019,first teams work better,Male,Engineer,Remote,https://www.youtube.com/watch?v=RMsZbchAwoY
+LeadDev,2019,Heidi Waterhouse,Female,Engineer,The power of positive transformation,https://www.youtube.com/watch?v=8PdNgQhhrDg
+LeadDev,2019,John Wards,Male,Engineer,Welcome our from our Premier Sponsor,https://www.youtube.com/watch?v=PmiFBqcujGg
+LeadDev,2019,Jonathan Rigby,Male,Engineer,The key to solving the conundrum of software estimation,https://www.youtube.com/watch?v=OUA7vsKk-CA
+LeadDev,2019,Jonathan Stott,Male,Engineer,Business as usual: how to stop drowning and learn to swim,https://www.youtube.com/watch?v=DrduEU-lwbU
+LeadDev,2019,Julia Grace,Female,Engineer,Scaling yourself during hypergrowth,https://www.youtube.com/watch?v=N94rM4FSfDA
+LeadDev,2019,Julia Nguyen,Female,Engineer,Navigating front-end architecture like a Neopian,https://www.youtube.com/watch?v=w9RZVfA60mY
+LeadDev,2019,Kate Beard,Female,Engineer,"Give 10%, get 110%",https://www.youtube.com/watch?v=1LrLiYQ3I60
+LeadDev,2019,Kirsten Westeinde,Female,Engineer,Designing software that maximizes developer productivity,https://www.youtube.com/watch?v=sOsSaK90j5w
+LeadDev,2019,Kwame Thomison,Male,Engineer,Principles for managing product quality,https://www.youtube.com/watch?v=yardmiCPpxg
+LeadDev,2019,Lara Hogan,Female,Engineer,Navigating team friction,https://www.youtube.com/watch?v=lqqBktWqPLo
+LeadDev,2019,Lena Reinhard,Female,Engineer,"Becoming a team, one pixel at a time",https://www.youtube.com/watch?v=btPPn-m32Mw
+ICFP,2021,Armaël Guéneau,Male,Senior Academic,Theorems for Free from Separation Logic Specifications,https://www.youtube.com/watch?v=8lv6UYX9toM
+ICFP,2021,Nicolas Krauter,Male,Senior Academic,Persistent Software Transactional Memory in Haskell,https://www.youtube.com/watch?v=YjhRWrUXZDM
+ICLR,2021,Aston Zhang,Male,Senior Academic,Beyond Fully-Connected Layers with Quaternions: Parameterization of Hypercomplex Multiplications with 1/n Parameters,https://www.youtube.com/watch?v=7e7IROyk9Z0&t=1s
+ICLR,2022,Bertrand Charpentier,Male,Junior Academic,Natural Posterior Network: Deep Bayesian Predictive Uncertainty for Exponential Family Distributions,https://www.youtube.com/watch?v=qMtpK0ECD8c&t=1s
+ICLR,2022,Nicholas Gao,Male,Junior Academic,Ab-initio Potential Energy Surfaces by Pairing GNNs with Neural Wave Functions,https://www.youtube.com/watch?v=SPgw4-RAGXs&t=19s
+ICLR,2022,Zihao Xu,Male,Senior Academic,Graph-Relational Domain Adaptation,https://www.youtube.com/watch?v=oNM5hZGVv34&t=3s
+ICNLSP,2021,Abdelhalim Hafedh Dahou,Male,Senior Academic,A3C: Arabic Anaphora Annotated Corpus,https://www.youtube.com/watch?v=33s5mgJqMq4
+ICNLSP,2021,Hayastan Avetisyan,Female,Senior Academic,Identifying and Understanding Game Framing in Online News,https://www.youtube.com/watch?v=mRNgtt3snkI
+IJCAI-ECAI,2018,Max Tegmark,Male,Senior Academic,How Far Will AI Go? Intelligible Intelligence & Beneficial Intelligence,https://youtu.be/tAdvbaQQDA4
+IPC,2019,Jessica Mauerhan,Female,Engineer,RTFM,https://youtu.be/dijddNfn97Q
+LeadDev,2019,Marco Rogers,Male,Engineer,Creating a career ladder for engineers,https://www.youtube.com/watch?v=jA1Q94d2z10
+LeadDev,2019,Markus Holtermann,Male,Engineer,Handling security issues,https://www.youtube.com/watch?v=-Q1sn9J2jiA
+LeadDev,2019,Melinda Seckington,Female,Engineer,Frameworks for developing developers,https://www.youtube.com/watch?v=18MI6n9hFDI
+LeadDev,2019,Miriam Busch,Female,Engineer,Mobile development in 2019: native versus cross-platform,https://www.youtube.com/watch?v=45JWJfss9GA
+LeadDev,2019,Nickolas Means,Male,Engineer,Eiffel's Tower,https://www.youtube.com/watch?v=RNGZTkM2xOU
+LeadDev,2019,Nick Stenning,Male,Engineer,Learning from incidents: how things went right,https://www.youtube.com/watch?v=SrAu6V18hb8
+LeadDev,2019,Nicky Thompson,Female,Engineer,Software engineering practices to improve management,https://www.youtube.com/watch?v=BWEx9cMB75k
+LeadDev,2019,Ola Sitarska,Female,Engineer,Behind the scenes of an effective & inclusive hiring process,https://www.youtube.com/watch?v=fM3xQMIWjbw
+LeadDev,2019,Pat Kua,Male,Engineer,Levelling up as a Lead Developer,https://www.youtube.com/watch?v=tLH1nwPeSBY
+LeadDev,2019,Pat Kua,Male,Engineer,Flavours of technical leadership,https://www.youtube.com/watch?v=YbGwoU2Ow4A
+LeadDev,2019,Paula Kennedy,Female,Engineer,"Silence isn't golden, it's deadly!",https://www.youtube.com/watch?v=JPvEF4Sc2Qo
+LeadDev,2019,Rod Begbie,Male,Engineer,Being right is only half the battle,https://www.youtube.com/watch?v=xnZAMk-xIGk
+LeadDev,2019,Steve Williams,Male,Engineer,A team in ten minutes,https://www.youtube.com/watch?v=IhcMWeN3Jzc
+LeadDev,2019,Weiting Liu,Male,Engineer,"Welcome from our Premier Sponsor, CodementorX",https://www.youtube.com/watch?v=YFXBx2iHdg0
+LeadDev,2019,Yenny Cheung,Female,Engineer,Creating an inclusive engineering culture,https://www.youtube.com/watch?v=lPe8-OR1WNc
+LeadDev,2019,Yvette Pasqua,Female,Engineer,Leading engineering teams through massive change,https://www.youtube.com/watch?v=CnODvHsYfao
+MLConference,2022,Christoph Henkelmann,Male,Engineer,Unsupervised Learning with Autoencoders,https://www.youtube.com/watch?v=Ex0nhOPzLIs
+MLConference,2022,Daniel Molnar,Male,Engineer,The Data Janitor returns,https://www.youtube.com/watch?v=4A-Uok-6CJw
+MLConference,2022,Daniel Schruhl,Male,Engineer,Continuous Delivery for Machine Learning Applications with Open Source Tools,https://www.youtube.com/watch?v=ub9XIgcUMAQ
+MLConference,2022,Dr. Pieter Buteneers,Male,Engineer,Chatbots Suck,https://www.youtube.com/watch?v=bW5FQE-U7Jo
+MLConference,2022,Fabian Hertwig,Male,Engineer,Predicting New York City Taxi demand: spatio-temporal Time Series Forecasting,https://www.youtube.com/watch?v=M5ySAEOi1oY
+MLConference,2022,Juantomás Garcia Molina,Male,Engineer,How we used Reinforcement Learning to solve the Abbey of Crime,https://www.youtube.com/watch?v=LLN-t3HN22E
+MLConference,2022,Oleksandr Honchar,Male,Engineer,Deep Learning: the final Frontier for Time Series Analysis?,https://www.youtube.com/watch?v=XIpui7lvjEg
+MLConference,2022,Oliver Zeigermann,Male,Engineer,How do Chess Engines work? Looking at Stockfish and AlphaZero,https://www.youtube.com/watch?v=P0jd8AHwjXw
+MLConference,2022,Thiago da Silva Alves,Male,Engineer,Honey Bee Conservation using Deep Learning,https://www.youtube.com/watch?v=yTYRx04Xr6E
+MLConference,2022,Vladimir Rybakov,Male,Engineer,Case Study: Making the Most out of a Doomed Project,https://www.youtube.com/watch?v=Dnp-IuP1Tgo
+NeurIPS,2021,Aditya Kusupati,Male,Junior Academic,"LLC: Accurate, Multi-purpose Learnt Low-dimensional Binary Codes",https://youtu.be/uF-2bTNLefs
+NeurIPS,2021,Andy Shih,Male,Junior Academic,HyperSPNs: Compact and Expressive Probabilistic Circuits,https://www.youtube.com/watch?v=8W48CqNELCM&t=2s
+NeurIPS,2021,Arnab Maiti,Male,Junior Academic,Multi-Armed Bandits with Bounded Arm-Memory,https://youtu.be/vshU6pCLASs
+NeurIPS,2021,Ashkan Khakzar,Male,Junior Academic,Fine Grained Neural Network Explanation,https://youtu.be/Z2oU11HMzds
+NeurIPS,2021,Beomjoon Kim,Male,Senior Academic,Meta-reasoning for Task and Motion Planning,https://youtu.be/BEp7up4SuGY
+NeurIPS,2021,Chao-Han Huck Yang,Male,Junior Academic,Pessimistic Model Selection for Offline Deep Reinforcement Learning,https://youtu.be/n8QxqOIvP8k
+NeurIPS,2021,Chaoyue Song,Male,Junior Academic,3D Pose Transfer with Correspondence Learning and Mesh Refinement,https://youtu.be/HjBvPhZSl-o
+NeurIPS,2021,Daniel Bolya,Male,Junior Academic,Scalable Diverse Model Selection for Accessible Transfer Learning,https://www.youtube.com/watch?v=1Fl6PBpdQgg&t=2s
+NeurIPS,2021,Danijar Hafner,Male,Junior Academic,Benchmarking the Spectrum of Agent Capabilities,https://youtu.be/kcvafU2-CPc
+NeurIPS,2021,David Chuan-En Lin,Male,Junior Academic,Soundify: Matching Sound Effects to Video,https://youtu.be/RJujIXD_rPc
+NeurIPS,2021,David Lindner,Male,Junior Academic,Information Directed Reward Learning for Reinforcement Learning,https://youtu.be/1RpiZrxhV90
+NeurIPS,2021,Dylan Slack,Male,Junior Academic,Counterfactual Explanations Can Be Manipulated,https://www.youtube.com/watch?v=q-7LB3I4PyU
+NeurIPS,2021,Fangzhou Hong,Male,Junior Academic,Garment4D: Garment Reconstruction from Point Cloud SequenceS,https://youtu.be/QQS_ukishok
+NeurIPS,2021,Favyen Bastani,Male,Senior Academic,Self-Supervised Multi-Object Tracking with Cross-Input Consistency,https://youtu.be/-WrD4FMwCcw
+NeurIPS,2021,Felix Petersen,Male,Senior Academic,Post-processing for Individual Fairness,https://youtu.be/9PyKODDewPA
+NeurIPS,2021,Hyeonjin Park,Female,Senior Academic,Metropolis-Hastings Data Augmentation for Graph Neural Networks,https://www.youtube.com/watch?v=KhpgFeBuhMk&t=2s
+NeurIPS,2021,Ingmar Schubert,Male,Junior Academic,Learning to Execute: Efficient Learning of Universal Plan-Conditioned Policies in Robotics,https://youtu.be/tbbiXFjucQ8
+NeurIPS,2021,Jack Richter-Powell,Male,Junior Academic,Input Convex Gradient Networks,https://youtu.be/GIRnKRP-rA8
+NeurIPS,2021,Jie Lei,Male,Senior Academic,QVHighlights: Detecting Moments and Highlights in Videos via Natural Language Queries,https://www.youtube.com/watch?v=XwYD3iovHtc&t=2s
+NeurIPS,2021,Julia Moosbauer,Female,Junior Academic,Explaining Hyperparameter Optimization via Partial Dependence Plots,https://youtu.be/20VyJw-Icog
+NeurIPS,2021,Julian Schrittwieser,Male,Academic (Engineer),Online and Offline Reinforcement Learning by Planning with a Learned Model,https://youtu.be/pgZhGavMHcU
+NeurIPS,2021,Julien Boussard,Male,Junior Academic,3D spike localization and improved motion correction for Neuropixels recordings,https://www.youtube.com/watch?v=gg6LhGs-54c
+NeurIPS,2021,Keegan Harris,Male,Junior Academic,Bayesian Persuasion for Algorithmic Recourse,https://www.youtube.com/watch?v=gMgMer_n_2k&t=4s
+NeurIPS,2021,Khaled Koutini,Male,Junior Academic,PaSST: Efficient Training of Audio Transformers with Patchout,https://youtu.be/TsOJVuU7kWg
+NeurIPS,2021,Lassi Meronen,Male,Junior Academic,Periodic activation functions induce stationarity,https://youtu.be/Kjrrvl-YDbw
+NeurIPS,2021,Louis Kirsch,Male,Junior Academic,Introducing Symmetries to Black Box Meta Reinforcement Learning,https://youtu.be/eS3qKlDyqdU
+NeurIPS,2021,Mark Boss,Male,Senior Academic,Neural-PIL: Neural Pre-Integrated Lighting for Reflectance Decomposition,https://www.youtube.com/watch?v=p5cKaNwVp4M&t=3s
+NeurIPS,2021,Mark Mazumber,Male,Junior Academic,Multilingual Spoken Words Corpus,https://www.youtube.com/watch?v=eGPCwnRtRng&t=2s
+NeurIPS,2021,Nikita Araslanov,Male,Junior Academic,Dense Unsupervised Learning for Video Segmentation,https://www.youtube.com/watch?v=tSBWZ6nYld0&t=1s
+NeurIPS,2021,Peter Hase,Male,Junior Academic,The Out-of-Distribution Problem in Explainability and Search Methods for Feature Importance Explanations,https://youtu.be/OZ0fSCQ7axw
+NeurIPS,2021,Pierre-Yves Oudeyer,Male,Junior Academic,Sculpting human-like AI systems by sculpting their social environments,https://youtu.be/RTtvSzRM99A
+NeurIPS,2021,Robin Hasse,Male,Junior Academic,Fast Axiomatic Attributions for Neural Networks,https://www.youtube.com/watch?v=AHkeeyoNGp8&t=18s
+NeurIPS,2021,Shaofei Wang,Male,Junior Academic,MetaAvatar: Learning Animatable Clothed Human Models from Few Depth Images,https://youtu.be/AwOwdKxuBXE
+NeurIPS,2021,Shruthi Gowda,Female,Senior Academic,Does Thermal data make the detection systems more reliable?,https://www.youtube.com/watch?v=FYuYSO6OCgE&t=17s
+NeurIPS,2021,Songyou Peng,Male,Junior Academic,Shape-As-Points (SAP): A Differentiable Poisson Solver,https://youtu.be/FL8LMk_qWb4
+NeurIPS,2021,Tianwei Yin,Male,Junior Academic,Multimodal Virtual Point 3D Detection,https://youtu.be/7Ep9ULeEKnA
+NeurIPS,2021,Tung-Yu Wu,Male,Junior Academic,Fusion and Concatenation are All You Need,https://youtu.be/16Rkqkd7SQE
+NeurIPS,2021,Vanya BK,Female,Senior Academic,Automated Evaluation of GNN Explanations with Neuro-Symbolic Reasoning,https://youtu.be/UylR1KH0PFU
+NeurIPS,2021,Vijaya Raghavan T,Male,Senior Academic,Self-Supervised Pretraining for Scene Change Detection,https://www.youtube.com/watch?v=xfrIhXKMzvQ&t=5s
+NeurIPS,2021,Vincent Adam,Male,Junior Academic,Dual parameterization of sparse variational Gaussian processes,https://youtu.be/yuC4LtVZ2rU
+NeurIPS,2021,Yonggan Fu,Male,Junior Academic,Drawing Robust Scratch Tickets: Subnetworks with Inborn Robustness Are Found within Randomly Initialized Networks,https://youtu.be/eXiAbHhbIa8
+NeurIPS,2021,Zihang Meng,Male,Junior Academic,An Online Riemannian PCA for Stochastic Canonical Correlation Analysis,https://www.youtube.com/watch?v=tl_5SnMJNB8&t=1s
+NLPSummit,2021,Andrei Lopatenko,Male,Engineer,NLP at Scale,https://youtu.be/KYbBh1xZ8fs
+NLPSummit,2021,Andy Li,Male,Engineer,Serve banking customers by leveraging Natural Language Processing,https://youtu.be/rDHr0u8FPa0
+NLPSummit,2021,Connor Leahy,Male,Engineer,Large Language Models and the Future of NLP,https://youtu.be/UB_p3s5rBSM
+NLPSummit,2021,Manisha Bafna,Female,Engineer,Using NLP to Improve Radiologist Productivity & Reduce Burnout,https://youtu.be/-ZawISk70Ls
+NLPSummit,2021,Nidhi Rajshree,Female,Engineer,"""Say it to Play it"" - Spoken Language Understanding Challenges in Entertainment Domain",https://youtu.be/xC4vSciXu1U
+NLPSummit,2021,Oana Frunza,Female,Engineer,"NLP in Finance: Realities, Challenges, and Possibilities",https://youtu.be/bSoF7S4ez38
+NLPSummit,2021,Paco Nathan,Male,Engineer,Industry Survey Analysis: natural language use cases in industry in 2021,https://youtu.be/mquIOQ4yYBE
+NLPSummit,2021,Rajesh Munavalli,Male,Engineer,Deep Reinforcement Learning for Goal oriented Dialogue Systems,https://youtu.be/slo45_-Mv74
+NLPSummit,2021,Sanaz Bahargam,Female,Engineer,Alexa Conversations: An AI-driven Approach for creating Task-oriented Dialogue Systems,https://youtu.be/p1Qe6U-su1U
+NLPSummit,2021,Sergei Nirenburg,Male,Engineer,Black Box AI? No Thanks!,https://youtu.be/ZQeyDVENfCg
+NLPSummit,2021,Summer Rankin,Female,Engineer,Detection of potential patient harms f/clinical notes in e-healthcare records:The Shakespeare Method,https://youtu.be/2ClZkaj2Guo
+NLPSummit,2021,Swati Sharma,Female,Engineer,Leveraging NLP to Extract Insights from Customer Conversations,https://youtu.be/QMKDYWhOKeE
+NLPSummit,2021,Swetha Tanamala,Female,Engineer,Rule based NLP for parsing of medical reports,https://youtu.be/G86kRoa8RjY
+NLPSummit,2021,Vivek Tomer,Male,Engineer,Lessons Learned De-Identifying 700 Million Patient Notes with Spark NLP,https://youtu.be/AB4gsFzM5Qc
+Nullcon,2021,Jovin Lobo,Male,Engineer,DevSecOps - Automating Security in DevOps,https://www.youtube.com/watch?v=-v3fs-i2O8w
+LeadDev,2019,Liz Fong,Female,Engineer,How to detangle and understand production,https://www.youtube.com/watch?v=s0wZFHNuzyc
+LeadDev,2019,platform is Native,Male,Engineer,The future of cross,https://www.youtube.com/watch?v=sA_JIqqj9js
+MLConference,2022,Eric Reiss,Male,Engineer,The Ethics of AI – dealing with difficult choices in a non-binary world,https://www.youtube.com/watch?v=UAARKi8v0ps
+NeurIPS,2021,Cam Allen,Male,Junior Academic,Learning Markov State Abstractions for Deep Reinforcement Learning,https://youtu.be/JqtETmOO0iI
+NeurIPS,2021,Ho-Hsiang Wu,Male,Junior Academic,Wav2CLIP: Learning Robust Audio Representations From CLIP,https://youtu.be/Kk2-gFeLGno
+NeurIPS,2021,Luca Weihs,Male,Senior Academic,Bridging the Imitation Gap by Adaptive Insubordination,https://www.youtube.com/watch?v=IARg6BOzeSY&t=2s
+NeurIPS,2021,Vit Ruzicka,Male,Junior Academic,Unsupervised Change Detection of Extreme Events Using ML On-Board,https://www.youtube.com/watch?v=ALtYfcuLzxI&t=3s
+NLPSummit,2021,Ben Lorica,Male,Engineer,Natural Language Processing: Analyzing Clinical and Mental Health Notes,https://youtu.be/njIDXjc-8sY
+NLPSummit,2021,Marcelo Tournier,Male,Engineer,NLP Clinical Ontology 101,https://youtu.be/BKH7tZrhat0
+NLPSummit,2021,Sishira Mishra,Male,Engineer,NLP with RPA,https://youtu.be/REq51g8tINg
+Nullcon,2021,Rashid Feroz,Male,Engineer,Defending enterprise cloud infrastructure : a hacker's perspective,https://www.youtube.com/watch?v=elqlG1Vzssk
+OSDI,2021,Jiang Zhang,Male,Junior Academic,SANRAZOR: Reducing Redundant Sanitizer Checks in C/C++ Programs,https://www.youtube.com/watch?v=XEoTlvim7bw&t=10s
+OSDI,2021,Tanvir Ahmed Khan,Male,Junior Academic,DMon: Efficient Detection and Correction of Data Locality Problems Using Selective Profiling,https://www.youtube.com/watch?v=u6zUyyzoJpY
+OSDI,2021,Youngseok Yang,Male,Junior Academic,Finding Consensus Bugs in Ethereum via Multi-transaction Differential Fuzzing,https://www.youtube.com/watch?v=gnbZRkLGmZA&t=12s
+POPL,2022,Charles Yuan,Male,Junior Academic,Twist: Sound Reasoning for Purity and Entanglement in Quantum Programs,https://www.youtube.com/watch?v=H3GIBgH5Ud4
+POPL,2022,Cheng Zhang,Female,Senior Academic,On Incorrectness Logic and Kleene Algebra with Top and Tests,https://www.youtube.com/watch?v=gLLlrnxB5Jg
+POPL,2022,Jialu Bao,Female,Junior Academic,A Separation Logic for Negative Dependence,https://www.youtube.com/watch?v=eRhBZuIAQY4
+POPL,2022,Sergey Pupyrev,Male,Senior Academic,Profile Inference Revisited,https://www.youtube.com/watch?v=dmdTIIjzOZk
+POPL,2022,Stefan K. Muller,Male,Senior Academic,Static Prediction of Parallel Computation Graphs,https://www.youtube.com/watch?v=uQbMrg5hWBA
+POPL,2022,Takeshi Tsukada,Male,Senior Academic,Software Model-Checking as Cyclic-Proof Search,https://www.youtube.com/watch?v=miozY4MV-lg
+POPL,2022,Vladimir Zamdzhiev,Male,Senior Academic,Semantics for Variational Quantum Programming,https://www.youtube.com/watch?v=M6o60DZfuIU
+POPL,2022,Xuan-Bach Le,Male,Senior Academic,A Quantum Interpretation of Separating Conjunction for Local Reasoning of Quantum Programs Based on Separation Logic,https://www.youtube.com/watch?v=cBbHLUuGONE
+POPL,2022,Yihong Zhang,Female,Senior Academic,Relational E-matching,https://www.youtube.com/watch?v=88Mq1Zba_1I
+POPL,2022,Yue Niu,Male,Senior Academic,A Cost-Aware Logical Framework,https://www.youtube.com/watch?v=cMHLOOtuU3s
+POPL,2022,Yuting Wang,Female,Senior Academic,Verified Compilation of C Programs with a Nominal Memory Model,https://www.youtube.com/watch?v=ZhnPaZ0aC3o
+POPL,2022,Zi Wang,Female,Senior Academic,Interval Universal Approximation for Neural Networks,https://www.youtube.com/watch?v=_1yCW4tqIKk
+OSDI,2021,Ankit Bhardwaj,Male,Junior Academic,NrOS: Effective Replication and Sharing in an Operating System,https://www.youtube.com/watch?v=BNlsYHxcahQ&t=11s
+OSDI,2021,Ding DIng,Female,Junior Academic,Polyjuice: High-Performance Transactions via Learned Concurrency Control,https://www.youtube.com/watch?v=QFrSR0BDqtA&t=11s
+OSDI,2021,Mingyu Li,Male,Senior Academic,Bringing Decentralized Search to Decentralized Services,https://www.youtube.com/watch?v=L73uDy9MpgQ&t=11s
+OSDI,2021,Nico Lehmann,Male,Junior Academic,STORM: Refinement Types for Secure Web Applications,https://www.youtube.com/watch?v=xkumsNo7A5Y&t=11s
+POPL,2022,Anders Miltner,Male,Junior Academic,Bottom-Up Synthesis of Recursive Functional Programs using Angelic Execution,https://www.youtube.com/watch?v=iPLUKbI4Yfs
+POPL,2022,Andreas Pavlogiannis,Male,Senior Academic,The Decidability and Complexity of Interleaved Bidirected Dyck Reachability,https://www.youtube.com/watch?v=cMRqpPd3HEE
+OSDI,2021,Qing Wang,Male,Junior Academic,Nap: A Black-Box Approach to NUMA-Aware Persistent Memory Indexes,https://www.youtube.com/watch?v=gConY4rVVIk&t=21s
+POPL,2022,Amanda Liu,Female,Junior Academic,Verified Tensor-Program Optimization Via High-Level Scheduling Rewrites,https://www.youtube.com/watch?v=f2NEU1ENt6A
+POPL,2022,Arthur Oliveira,Male,Junior Academic,Layered and Object-Based Game Semantics,https://www.youtube.com/watch?v=OK2RnP2hL6g
