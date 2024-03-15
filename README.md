@@ -130,7 +130,3 @@ female speakers based on the p-value you can run the following script:
 ```
 python3 metadata_stat_tests.py -i annotations_metadata.json -t <task_name>
 ```
-
-
-Data Privacy Note:
-If any of the URLs on our datasets infringes upon ones privacy and they wish it to be removed, they can contact us at tyianak@iit.demokritos.gr to remove them. 
